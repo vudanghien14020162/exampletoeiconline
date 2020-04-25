@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<!--<suite là cây test-->
+<suite name="TestAll" verbose="1" >
+    <test name="case1" >
+        <classes>
+            <class name="vn.myclass.core.test.RoleTest" />
+        </classes>
+    </test>
+</suite>
